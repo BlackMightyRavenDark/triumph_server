@@ -1,0 +1,37 @@
+﻿#Картинки
+image/bmp		|.bmp
+image/gif		|.gif
+image/jpeg		|.jpg, .jpeg, .jfif, .pjpeg, .pjp
+image/png		|.png
+image/tiff		|.tiff
+image/svg+xml	|.svg
+image/vnd.microsoft.icon|.ico
+image/webp		|.webp
+
+#Форматы видео
+video/3gpp		|.3gp, .3gpp
+video/mp2t		|.ts
+video/mp4		|.mp4, .m4v
+video/mpeg		|.mpg, .mpeg
+video/ogg		|.ogg
+video/webm		|.webm
+video/x-flv		|.flv
+video/x-msvideo	|.avi
+video/x-ms-wmv	|.wmv
+
+#Форматы аудио
+audio/aac		|.aac
+audio/mp3		|.mp3
+audio/mp4		|.m4a
+audio/vnd.wave	|.wav
+video/webm		|.weba
+
+#HTML / CSS / JS
+text/css			|.css
+text/html			|.html
+text/javascript		|.js
+
+#Разное
+application/json	|.json
+application/pdf		|.pdf
+application/zip		|.zip
