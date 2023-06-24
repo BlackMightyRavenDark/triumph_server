@@ -1,0 +1,17 @@
+.contacts {
+    margin: 80px 0 170px 0;
+}
+
+.contacts > h2 {
+    margin-bottom: 80px;
+}
+
+.contacts__info-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contacts__info-wrapper > div > p {
+    font-size: 24px;
+}

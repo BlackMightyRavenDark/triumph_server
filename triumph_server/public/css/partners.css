@@ -1,0 +1,48 @@
+.our-partners {
+    position: relative;
+    margin-top: 150px;
+}
+
+.our-partners > img {
+    position: absolute;
+    top: -40px;
+    z-index: -1;
+}
+
+.our-partners > img:nth-child(1) {
+    left: 10px;
+}
+
+.our-partners > img:nth-child(2) {
+    right: 10px;
+}
+
+.partner-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 100px 150px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.partners__images {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+}
+
+.partners__discounts {
+    width: 343px;
+    height: 142px;
+    background-image: url("../images/discounts.png");
+}
+
+.partners__discounts > p {
+    width: 180px;
+    margin-top: 36px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}

@@ -1,0 +1,29 @@
+.about {
+    margin-top: 170px;
+}
+
+.about__info-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin: 75px 40px 0 40px;
+}
+
+.about__info-text {
+    width: 610px;
+    height: 475px;
+    overflow: auto;
+}
+
+.about__info-text > p {
+    font-size: 24px;
+}
+
+.about__info-text > button {
+    margin: 40px 0 0 20px;
+}
+
+.about__picture {
+    width: 670px;
+    height: 475px;
+}

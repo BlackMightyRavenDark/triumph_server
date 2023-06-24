@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url("../images/main_background.png");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-color: #181715;
+}
+
+.main-text {
+    margin: 4px 0 0 40px;
+}
+
+.main-text > h1:first-child {
+    width: 530px;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.main-text > p:nth-child(2) {
+    width: 500px;
+    margin: 30px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.main-text > p:last-child {
+    width: 430px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.button-discuss {
+    margin: 70px 0 0 40px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 20px 0px rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.button-discuss:hover {
+    cursor: pointer;
+    box-shadow: 0px 8px 40px 0px rgba(255, 255, 255, 0.5);
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}

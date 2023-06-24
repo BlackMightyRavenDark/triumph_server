@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 40px 0 40px;
+}
+
+header > p:nth-child(1) {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+header > nav > ul {
+    display: flex;
+    gap: 20px;
+}
+
+header > nav > ul > li {
+    list-style: none;
+}
+
+header > nav > ul > li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: deepskyblue;
+}

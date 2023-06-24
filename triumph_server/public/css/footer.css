@@ -1,0 +1,10 @@
+footer {
+    height: 216px;
+    background-color: black;
+}
+
+footer > p {
+    padding: 54px 0 0 43px;
+    font-size: 56px;
+    font-weight: 700;
+}

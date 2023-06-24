@@ -6,6 +6,7 @@ using System.Net;
 using System.Text;
 using System.IO;
 using System.Collections.Specialized;
+using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 
 namespace triumph_server
@@ -44,8 +45,17 @@ namespace triumph_server
                 Socket client = server.Accept();
                 LogEvent($"{client.RemoteEndPoint} is connected");
 
-                ProcessClient(client);
-                DisconnectClient(client);
+                Task.Run(() =>
+                {
+                    try
+                    {
+                        ProcessClient(client);
+                        DisconnectClient(client);
+                    } catch
+                    {
+                        Console.WriteLine("!ERROR!");
+                    }
+                });
             }
 
             StopServer(server);
